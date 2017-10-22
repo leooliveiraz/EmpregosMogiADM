@@ -8,6 +8,7 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
+
     <include
         layout="@layout/app_bar_tela_principal"
         android:layout_width="match_parent"
@@ -21,5 +22,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_tela_principal"
         app:menu="@menu/activity_tela_principal_drawer" />
+
+
 
 </android.support.v4.widget.DrawerLayout>
